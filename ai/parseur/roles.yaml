@@ -1,0 +1,6 @@
+# Table des rôles connus dans les exports WhatsApp (Guide §6.3)
+# Tout auteur absent de cette liste est classé par défaut comme "client".
+"Boutique X": vendeuse
+"Vendeuse": vendeuse
+"Livreur": livreur
+"Livreur Marc": livreur

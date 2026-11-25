@@ -221,3 +221,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Projet Hackathon BWAI 2026 — environnement local, documents de travail et poids de modèles
+.venv/
+_notes_perso/
+BWAI2026_Bloc_IA_Jean-Arthur_v2.md
+cahier_des_charges_BWAI_2026-1.pdf
+addendum_cahier_des_charges_BWAI_2026_v1-1.pdf
+ai/modeles/ner-v1/
+ai/modeles/crf-v1/
+ai/modeles/*/*.bin
+ai/modeles/*/*.safetensors
+ai/modeles/*/*.joblib
+ai/modeles/*/*.pkl
+ai/modeles/*.zip
+
