@@ -1,0 +1,14 @@
+currency: FCFA
+tax_rate_percent: 18
+discounts:
+  fidelity_percent: 5
+  quantity_percent: 10
+  quantity_units_threshold: 3
+  welcome_code: BIENVENUE10
+  welcome_percent: 10
+delivery_fees_ht:
+  Cotonou: 1000
+  Abomey-Calavi: 1500
+  Porto-Novo: 2000
+unusual_price_tolerance_percent: 10
+rounding: half_up

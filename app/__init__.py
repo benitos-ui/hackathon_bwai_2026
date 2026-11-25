@@ -1,0 +1,1 @@
+"""Boutique X application package."""
