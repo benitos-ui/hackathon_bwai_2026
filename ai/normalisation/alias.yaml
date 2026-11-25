@@ -1,0 +1,28 @@
+# Alias produits, zones et variantes du Bloc IA (Guide §7.2)
+# Clés produits = colonne `reference` de data/catalogue.csv (Primel)
+# Clés zones    = noms canoniques de la colonne `zone` de data/clients.csv (Primel)
+
+produits:
+  ART-001: [robe wax ayoka, robe ayoka, robes ayoka, ayoka, robe wax, robe]
+  ART-002: [ensemble pagne senami, ensemble pagne, senami, ensemble]
+  ART-003: [sac a main lagune, sac lagune, sac a main, lagune, sac]
+  ART-004: [serum vitamine c 30 ml, serum vitamine c, serum vit c, serum]
+  ART-005: [beurre de karite 200 ml, beurre de karite, karite]
+
+zones:
+  Cotonou: [cotonou, cotonou ville, ctn]
+  Abomey-Calavi: [calavi, abomey calavi, a calavi, abc]
+  Porto-Novo: [porto novo, porto, pn]
+
+variantes:
+  s: S
+  m: M
+  l: L
+  xl: XL
+  small: S
+  medium: M
+  large: L
+  moyenne: M
+  grande: L
+  petite: S
+  unique: Unique
