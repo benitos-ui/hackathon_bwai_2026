@@ -239,5 +239,9 @@ ai/modeles/*/*.joblib
 ai/modeles/*/*.pkl
 ai/modeles/*.zip
 
+# Livrables e-mail, vidéos et archives (hors Git)
+_livrables_email/
+*.zip
+*.mp4
 
 data/awa_dossou.txt

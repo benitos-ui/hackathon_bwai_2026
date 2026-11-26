@@ -106,6 +106,32 @@ def _refresh_doc_status():
 
 
 # ------------------------------------------------------------------ public API
+def login(identifier, password):
+    if API_MODE == "mock":
+        roles = {
+            "USR-VEND": ("Vendeuse", "vendeuse"),
+            "USR-GER": ("Gérant", "gerant"),
+            "USR-AUD": ("Auditeur", "auditeur"),
+        }
+        if identifier not in roles or not password:
+            raise ApiError(401, "Authentification refusée")
+        name, role = roles[identifier]
+        return {"identifier": identifier, "name": name, "role": role}
+    return _request("POST", "/auth/login", json_body={"identifier": identifier, "password": password})
+
+
+def check_api_health():
+    """Return True if the live API responds cleanly, or True in mock mode."""
+    if API_MODE == "mock":
+        return True
+    try:
+        with httpx.Client(timeout=2.0) as client:
+            resp = client.get(f"{API_URL}/tableau-de-bord")
+        return resp.status_code < 500
+    except httpx.RequestError:
+        return False
+
+
 def reset_demo():
     if API_MODE == "mock":
         _state.clear()
