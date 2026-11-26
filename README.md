@@ -81,3 +81,8 @@ pytest -q
 ```
 
 Couvre les tests unitaires IA (`tests/ai/`), le moteur de calcul et les contrôles (`tests/test_primel.py`), le socle workflow (`tests/test_workflow.py`) et le parcours complet bout-en-bout, concurrence à 50 requêtes, reprise après interruption, immutabilité SQLite et détection d'altération d'audit (`tests/test_integration_e2e.py`).
+
+## Livrables de documentation
+
+- [Rapport du prototype BWAI 2026 (PDF, 4 pages)](docs/rapport_hackathon_bwai_2026.pdf) — source éditable : [rapport_hackathon.md](docs/rapport_hackathon.md)
+- [Fiche IA](docs/fiche_ia.md) et [résultats détaillés de l'évaluation](docs/resultats_ia.json)
