@@ -1,0 +1,7 @@
+25/11/2026 09:10 - Koffi Adjovi: Bonjour Boutique X, c'est ma première commande chez vous !
+25/11/2026 09:11 - Vendeuse: Bonjour Koffi, bienvenue chez Boutique X ! Que souhaitez-vous commander ?
+25/11/2026 09:13 - Koffi Adjovi: Je veux 1 sac à main Lagune et 1 beurre de karité 200 ml svp. J'ai le code BIENVENUE10.
+25/11/2026 09:15 - Vendeuse: Parfait Koffi, c'est bien noté avec le code BIENVENUE10. Livraison à Cotonou ?
+25/11/2026 09:16 - Koffi Adjovi: Oui livraison à Cotonou aujourd'hui si possible, je paie par Mobile Money MTN.
+25/11/2026 09:18 - Vendeuse: Super, le livreur passe cet après-midi à Cotonou.
+25/11/2026 15:25 - Livreur: Livré chez Koffi à Cotonou. 1 sac à main Lagune et 1 beurre de karité livrés et acceptés, payé par Mobile Money.

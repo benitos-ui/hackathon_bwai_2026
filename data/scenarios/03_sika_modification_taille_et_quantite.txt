@@ -1,0 +1,12 @@
+25/11/2026 08:30 - Sika Hounkpatin: Bonjour la boutique ! J'espère que vous allez bien.
+25/11/2026 08:32 - Vendeuse: Bonjour Sika, toujours ravie de vous lire ! Qu'est-ce qui vous ferait plaisir aujourd'hui ?
+25/11/2026 08:35 - Sika Hounkpatin: Je prépare une cérémonie ce week-end à Porto-Novo. Je veux 1 ensemble pagne Sènami en M, 2 beurres de karité 200 ml et 1 sac à main Lagune svp.
+25/11/2026 08:37 - Vendeuse: Très bon choix ! L'ensemble pagne Sènami taille M, les 2 beurres de karité et le sac Lagune sont en stock.
+25/11/2026 08:39 - Sika Hounkpatin: Attendez, je viens de vérifier mes mesures. Finalement mets la taille L pour l'ensemble pagne Sènami svp.
+25/11/2026 08:41 - Vendeuse: C'est modifié, on passe l'ensemble pagne Sènami en taille L. Toujours livraison à Porto-Novo ?
+25/11/2026 08:43 - Sika Hounkpatin: Oui à Porto-Novo, quartier Ouando, demain matin si possible.
+25/11/2026 08:45 - Vendeuse: Noté pour demain à Porto-Novo. Vous réglez comment ?
+25/11/2026 08:46 - Sika Hounkpatin: Paiement à la livraison en espèces comme d'habitude.
+25/11/2026 08:48 - Vendeuse: Parfait Sika, merci pour votre fidélité ! On prépare le colis.
+25/11/2026 11:10 - Livreur: En route pour Porto-Novo avec le colis de Sika.
+25/11/2026 12:05 - Livreur: Livré chez Sika à Porto-Novo. Tout accepté : 1 ensemble pagne Sènami L, 2 beurres de karité et 1 sac Lagune livrés, payé en espèces.

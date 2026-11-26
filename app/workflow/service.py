@@ -721,10 +721,12 @@ class WorkflowService:
 
             # Expand per variant when detailed breakdown is available (e.g. Awa's M & L dresses)
             if rep_cmd:
-                refused_vars = {r.get("variante"): r.get("motif", "") for r in line_refusals if r.get("variante")}
+                # Deduplicate variant entries when seller echoes the recap (keep last qty per variant)
+                dedup_rep: dict[str, int] = {}
                 for item in rep_cmd:
-                    var = item["variante"]
-                    ordered = int(item["quantite"])
+                    dedup_rep[item["variante"]] = int(item["quantite"])
+                refused_vars = {r.get("variante"): r.get("motif", "") for r in line_refusals if r.get("variante")}
+                for var, ordered in dedup_rep.items():
                     if var in refused_vars:
                         refused = ordered
                         accepted = 0
@@ -773,8 +775,8 @@ class WorkflowService:
                 ordered = int(q_cmd) if q_cmd is not None else (int(q_liv) if q_liv is not None else 0)
                 if q_liv is not None:
                     accepted = int(q_liv)
-                    delivered = accepted + q_ref
-                    missing = max(0, ordered - delivered)
+                    missing = max(0, ordered - accepted - q_ref)
+                    delivered = accepted + q_ref + missing
                 else:
                     # No delivery message yet: draft preview assumes ordered - refused
                     accepted = max(0, ordered - q_ref)

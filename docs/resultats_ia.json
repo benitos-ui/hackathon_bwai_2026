@@ -5,7 +5,7 @@
   "nb_messages": 1183,
   "nb_sans_entite": 95,
   "version_baseline": "baseline-1.0",
-  "version_modele": "crf-v1",
+  "version_modele": "ner-v1",
   "f1_strict": {
     "baseline": {
       "par_entite": {
@@ -88,8 +88,8 @@
       "par_entite": {
         "CLIENT": {
           "precision": 1.0,
-          "rappel": 0.7329,
-          "f1": 0.8458,
+          "rappel": 1.0,
+          "f1": 1.0,
           "support": 423
         },
         "CODE_PROMO": {
@@ -100,8 +100,8 @@
         },
         "DATE_LIVRAISON": {
           "precision": 1.0,
-          "rappel": 0.3274,
-          "f1": 0.4933,
+          "rappel": 1.0,
+          "f1": 1.0,
           "support": 113
         },
         "MOTIF_REFUS": {
@@ -111,9 +111,9 @@
           "support": 101
         },
         "PAIEMENT": {
-          "precision": 0.6468,
-          "rappel": 0.7263,
-          "f1": 0.6842,
+          "precision": 0.9222,
+          "rappel": 0.9274,
+          "f1": 0.9248,
           "support": 179
         },
         "PRIX_CITE": {
@@ -123,15 +123,15 @@
           "support": 102
         },
         "PRODUIT": {
-          "precision": 0.7455,
-          "rappel": 0.7197,
-          "f1": 0.7324,
+          "precision": 0.9849,
+          "rappel": 0.998,
+          "f1": 0.9914,
           "support": 981
         },
         "QUANTITE": {
-          "precision": 0.933,
-          "rappel": 0.9991,
-          "f1": 0.9649,
+          "precision": 0.8738,
+          "rappel": 1.0,
+          "f1": 0.9326,
           "support": 1073
         },
         "REFUS": {
@@ -142,24 +142,24 @@
         },
         "VARIANTE": {
           "precision": 1.0,
-          "rappel": 0.9697,
-          "f1": 0.9846,
+          "rappel": 0.9971,
+          "f1": 0.9986,
           "support": 694
         },
         "ZONE": {
-          "precision": 1.0,
-          "rappel": 1.0,
-          "f1": 1.0,
+          "precision": 0.9933,
+          "rappel": 0.9966,
+          "f1": 0.995,
           "support": 298
         }
       },
       "micro": {
-        "precision": 0.903,
-        "rappel": 0.8713,
-        "f1": 0.8869,
+        "precision": 0.957,
+        "rappel": 0.9957,
+        "f1": 0.9759,
         "support": 4157
       },
-      "macro_f1": 0.8823
+      "macro_f1": 0.9857
     }
   },
   "f1_souple": {
@@ -244,8 +244,8 @@
       "par_entite": {
         "CLIENT": {
           "precision": 1.0,
-          "rappel": 0.7329,
-          "f1": 0.8458,
+          "rappel": 1.0,
+          "f1": 1.0,
           "support": 423
         },
         "CODE_PROMO": {
@@ -256,8 +256,8 @@
         },
         "DATE_LIVRAISON": {
           "precision": 1.0,
-          "rappel": 0.3274,
-          "f1": 0.4933,
+          "rappel": 1.0,
+          "f1": 1.0,
           "support": 113
         },
         "MOTIF_REFUS": {
@@ -267,9 +267,9 @@
           "support": 101
         },
         "PAIEMENT": {
-          "precision": 0.8657,
-          "rappel": 0.9721,
-          "f1": 0.9158,
+          "precision": 0.9944,
+          "rappel": 1.0,
+          "f1": 0.9972,
           "support": 179
         },
         "PRIX_CITE": {
@@ -279,15 +279,15 @@
           "support": 102
         },
         "PRODUIT": {
-          "precision": 1.0,
-          "rappel": 0.9653,
-          "f1": 0.9824,
+          "precision": 0.9869,
+          "rappel": 1.0,
+          "f1": 0.9934,
           "support": 981
         },
         "QUANTITE": {
-          "precision": 0.933,
-          "rappel": 0.9991,
-          "f1": 0.9649,
+          "precision": 0.8738,
+          "rappel": 1.0,
+          "f1": 0.9326,
           "support": 1073
         },
         "REFUS": {
@@ -298,24 +298,24 @@
         },
         "VARIANTE": {
           "precision": 1.0,
-          "rappel": 0.9697,
-          "f1": 0.9846,
+          "rappel": 0.9971,
+          "f1": 0.9986,
           "support": 694
         },
         "ZONE": {
-          "precision": 1.0,
+          "precision": 0.9967,
           "rappel": 1.0,
-          "f1": 1.0,
+          "f1": 0.9983,
           "support": 298
         }
       },
       "micro": {
-        "precision": 0.9741,
-        "rappel": 0.9399,
-        "f1": 0.9567,
+        "precision": 0.9607,
+        "rappel": 0.9995,
+        "f1": 0.9797,
         "support": 4157
       },
-      "macro_f1": 0.9261
+      "macro_f1": 0.9927
     }
   },
   "calibration": {
@@ -416,8 +416,8 @@
       ]
     },
     "modele": {
-      "nb_predictions": 4011,
-      "ece": 0.0524,
+      "nb_predictions": 4325,
+      "ece": 0.0271,
       "bins": [
         {
           "bin": 0,
@@ -450,64 +450,64 @@
           "bin": 3,
           "borne_inf": 0.3,
           "borne_sup": 0.4,
-          "n": 7,
+          "n": 2,
           "correct": 0,
           "precision_empirique": 0.0,
-          "confiance_moyenne": 0.3504
+          "confiance_moyenne": 0.3086
         },
         {
           "bin": 4,
           "borne_inf": 0.4,
           "borne_sup": 0.5,
-          "n": 43,
-          "correct": 17,
-          "precision_empirique": 0.3953,
-          "confiance_moyenne": 0.4601
+          "n": 3,
+          "correct": 0,
+          "precision_empirique": 0.0,
+          "confiance_moyenne": 0.4714
         },
         {
           "bin": 5,
           "borne_inf": 0.5,
           "borne_sup": 0.6,
-          "n": 123,
-          "correct": 56,
-          "precision_empirique": 0.4553,
-          "confiance_moyenne": 0.5464
+          "n": 18,
+          "correct": 0,
+          "precision_empirique": 0.0,
+          "confiance_moyenne": 0.5514
         },
         {
           "bin": 6,
           "borne_inf": 0.6,
           "borne_sup": 0.7,
-          "n": 69,
-          "correct": 49,
-          "precision_empirique": 0.7101,
-          "confiance_moyenne": 0.636
+          "n": 7,
+          "correct": 1,
+          "precision_empirique": 0.1429,
+          "confiance_moyenne": 0.6309
         },
         {
           "bin": 7,
           "borne_inf": 0.7,
           "borne_sup": 0.8,
-          "n": 106,
-          "correct": 91,
-          "precision_empirique": 0.8585,
-          "confiance_moyenne": 0.7589
+          "n": 17,
+          "correct": 0,
+          "precision_empirique": 0.0,
+          "confiance_moyenne": 0.7412
         },
         {
           "bin": 8,
           "borne_inf": 0.8,
           "borne_sup": 0.9,
-          "n": 483,
-          "correct": 428,
-          "precision_empirique": 0.8861,
-          "confiance_moyenne": 0.8563
+          "n": 56,
+          "correct": 10,
+          "precision_empirique": 0.1786,
+          "confiance_moyenne": 0.86
         },
         {
           "bin": 9,
           "borne_inf": 0.9,
           "borne_sup": 1.0,
-          "n": 3180,
-          "correct": 2981,
-          "precision_empirique": 0.9374,
-          "confiance_moyenne": 0.9889
+          "n": 4222,
+          "correct": 4128,
+          "precision_empirique": 0.9777,
+          "confiance_moyenne": 0.9899
         }
       ]
     }
@@ -528,14 +528,14 @@
       }
     },
     "modele": {
-      "total": 4011,
-      "nb_vert": 3180,
-      "nb_orange": 658,
-      "nb_rouge": 173,
-      "taux_vert": 0.7928,
-      "taux_orange": 0.164,
-      "taux_rouge": 0.0431,
-      "taux_revue_attentive": 0.2072,
+      "total": 4325,
+      "nb_vert": 4222,
+      "nb_orange": 80,
+      "nb_rouge": 23,
+      "taux_vert": 0.9762,
+      "taux_orange": 0.0185,
+      "taux_rouge": 0.0053,
+      "taux_revue_attentive": 0.0238,
       "seuils": {
         "vert": 0.9,
         "rouge": 0.6
@@ -700,157 +700,112 @@
     },
     "modele": {
       "compteurs": {
-        "confusion_classe": 0,
-        "frontiere_decalee": 285,
-        "entite_manquee": 250,
-        "faux_positif_sans_entite": 27,
-        "faux_positif_autre": 77
+        "confusion_classe": 1,
+        "frontiere_decalee": 17,
+        "entite_manquee": 2,
+        "faux_positif_sans_entite": 0,
+        "faux_positif_autre": 168
       },
-      "total_erreurs": 639,
+      "total_erreurs": 188,
       "exemples": {
-        "confusion_classe": [],
+        "confusion_classe": [
+          {
+            "texte": "Confirmation pour Tanguy : passage prévu lundi sur oCtoonou",
+            "attendu": {
+              "label": "ZONE",
+              "texte": "oCtoonou"
+            },
+            "predit": {
+              "label": "PAIEMENT",
+              "texte": "C"
+            }
+          }
+        ],
         "frontiere_decalee": [
           {
-            "texte": "Chez Nadège, elle a refusé le sac Lagune (couleur différente), 1 esbmle accepté",
+            "texte": "Salut, je souhaite cinq sérums vitamine S avec un roobe Ayoka",
             "attendu": {
               "label": "PRODUIT",
-              "texte": "esbmle"
+              "texte": "sérums vitamine"
             },
             "predit": {
               "label": "PRODUIT",
-              "texte": "esbmle accepté"
+              "texte": "sérums vitamine S"
             }
           },
           {
-            "texte": "Chez Rodrigue, elle a refusé l'ensemble Sènami M (pas la bonne taillle), x2 robes wax Ayoak accepté",
-            "attendu": {
-              "label": "PRODUIT",
-              "texte": "robes wax Ayoak"
-            },
-            "predit": {
-              "label": "PRODUIT",
-              "texte": "robes wax Ayoak accepté"
-            }
-          },
-          {
-            "texte": "Chez Mireille, elle a refuse la robe wax L (trop petite), x1 sérum vitamine c accepté",
-            "attendu": {
-              "label": "PRODUIT",
-              "texte": "sérum vitamine c"
-            },
-            "predit": {
-              "label": "PRODUIT",
-              "texte": "sérum vitamine c accepté"
-            }
-          },
-          {
-            "texte": "Passage chez Chantal ok : x1 beurre de karitéé XL livrés, payé paiement a la livraison",
+            "texte": "Passage chez Sènan ok : trois robes wax L livrés, payé à la livraisn",
             "attendu": {
               "label": "PAIEMENT",
-              "texte": "paiement a la livraison"
+              "texte": "à la livraisn"
             },
             "predit": {
               "label": "PAIEMENT",
-              "texte": "a la livraison"
+              "texte": "la livraisn"
             }
           },
           {
-            "texte": "Chez Clarisse, elle a refusé le sac Lagune (trop courte), 1 paagne Senami accepté",
+            "texte": "Passage chez Yao ok : cinq robes wax M livrés, payé en espèces",
             "attendu": {
-              "label": "PRODUIT",
-              "texte": "paagne Senami"
+              "label": "PAIEMENT",
+              "texte": "en espèces"
             },
             "predit": {
-              "label": "PRODUIT",
-              "texte": "paagne Senami accepté"
+              "label": "PAIEMENT",
+              "texte": "espèces"
+            }
+          },
+          {
+            "texte": "Passage chez Tanguy ok : deux robes L livrés, payé en espèces",
+            "attendu": {
+              "label": "PAIEMENT",
+              "texte": "en espèces"
+            },
+            "predit": {
+              "label": "PAIEMENT",
+              "texte": "espèces"
+            }
+          },
+          {
+            "texte": "Confirmation pour Tanguy : passage prévu lundi sur oCtoonou",
+            "attendu": {
+              "label": "ZONE",
+              "texte": "oCtoonou"
+            },
+            "predit": {
+              "label": "ZONE",
+              "texte": "o"
             }
           }
         ],
         "entite_manquee": [
           {
-            "texte": "Bonjour c'est Koffi, je prends x1 ensemble ppagne sènami en L",
+            "texte": "Salut, je souhaite cinq sérums vitamine S avec un roobe Ayoka",
             "attendu": {
-              "label": "CLIENT",
-              "texte": "Koffi"
+              "label": "VARIANTE",
+              "texte": "S"
             },
             "predit": null
           },
           {
-            "texte": "Bonjour c'est Chantal, je prends quatre ensembles pagne sènami en XL",
+            "texte": "Salut, je souhaite 5 ensembles sènami grande avec deux serums vit c",
             "attendu": {
-              "label": "CLIENT",
-              "texte": "Chantal"
-            },
-            "predit": null
-          },
-          {
-            "texte": "Confirmation pour Rodrigue : passage prévu aujourd'hui sur abomey-caavi",
-            "attendu": {
-              "label": "DATE_LIVRAISON",
-              "texte": "aujourd'hui"
-            },
-            "predit": null
-          },
-          {
-            "texte": "Confirmation pour Mireille : passage prévu aujourd'hui sur Calavi",
-            "attendu": {
-              "label": "DATE_LIVRAISON",
-              "texte": "aujourd'hui"
-            },
-            "predit": null
-          },
-          {
-            "texte": "Confirmation pour Mireille : passage prévu demain sur Cootonou ville",
-            "attendu": {
-              "label": "DATE_LIVRAISON",
-              "texte": "demain"
+              "label": "VARIANTE",
+              "texte": "grande"
             },
             "predit": null
           }
         ],
-        "faux_positif_sans_entite": [
-          {
-            "texte": "Merci encore et à bientôt",
-            "attendu": null,
-            "predit": {
-              "label": "PAIEMENT",
-              "texte": "bientôt"
-            }
-          },
-          {
-            "texte": "Merci encore et à bientôt",
-            "attendu": null,
-            "predit": {
-              "label": "PAIEMENT",
-              "texte": "bientôt"
-            }
-          },
-          {
-            "texte": "Merci encore et à bientôt",
-            "attendu": null,
-            "predit": {
-              "label": "PAIEMENT",
-              "texte": "bientôt"
-            }
-          },
-          {
-            "texte": "Merci encore et à bientôt",
-            "attendu": null,
-            "predit": {
-              "label": "PAIEMENT",
-              "texte": "bientôt"
-            }
-          },
-          {
-            "texte": "Merci encore et à bientôt",
-            "attendu": null,
-            "predit": {
-              "label": "PAIEMENT",
-              "texte": "bientôt"
-            }
-          }
-        ],
+        "faux_positif_sans_entite": [],
         "faux_positif_autre": [
+          {
+            "texte": "Pour les sacs à main lagune, j'en veux 2 : une taille L et une en XL",
+            "attendu": null,
+            "predit": {
+              "label": "QUANTITE",
+              "texte": "les"
+            }
+          },
           {
             "texte": "Vous confirmez douze mille pour le sérums vit C ?",
             "attendu": null,
@@ -860,31 +815,23 @@
             }
           },
           {
+            "texte": "Pour les sacs à main Lagune, j'en veux 2 : une taille L et une en XL",
+            "attendu": null,
+            "predit": {
+              "label": "QUANTITE",
+              "texte": "les"
+            }
+          },
+          {
+            "texte": "Pour les beurrs de karite, j'en veux 2 : une taille L et une en M",
+            "attendu": null,
+            "predit": {
+              "label": "QUANTITE",
+              "texte": "les"
+            }
+          },
+          {
             "texte": "Vous confirmez 15k pour le ensembles Sènami ?",
-            "attendu": null,
-            "predit": {
-              "label": "QUANTITE",
-              "texte": "le"
-            }
-          },
-          {
-            "texte": "Vous confirmez 22 000 f pour le sacs Lagune ?",
-            "attendu": null,
-            "predit": {
-              "label": "QUANTITE",
-              "texte": "le"
-            }
-          },
-          {
-            "texte": "Vous confirmez 15 000 pour le sérums viamine c ?",
-            "attendu": null,
-            "predit": {
-              "label": "QUANTITE",
-              "texte": "le"
-            }
-          },
-          {
-            "texte": "Vous confirmez 12.000 FCFA pour le robes wax ?",
             "attendu": null,
             "predit": {
               "label": "QUANTITE",

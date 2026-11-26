@@ -495,3 +495,23 @@ def test_ui_api_client_live_end_to_end(client, monkeypatch):
     assert api_client.verify_audit()["valid"] is True
     assert api_client.get_dashboard()["invoices_count"] == 1
 
+
+@pytest.mark.parametrize(
+    "scenario_file",
+    sorted((Path(__file__).resolve().parents[1] / "data" / "scenarios").glob("*.txt")),
+    ids=lambda p: p.name,
+)
+def test_all_scenario_files_import_and_calculate_cleanly(client, scenario_file):
+    http, _, _ = client
+    raw = scenario_file.read_text(encoding="utf-8")
+    res = http.post("/dossiers/import", json={"raw_text": raw, "created_by": "USR-VEND"})
+    assert res.status_code == 200
+    did = res.json()["dossier_id"]
+    assert len(http.get(f"/dossiers/{did}/messages").json()) >= 4
+    assert len(http.get(f"/dossiers/{did}/extractions").json()) >= 6
+    facture = http.get(f"/dossiers/{did}/facture").json()
+    assert facture["totals"]["total_ttc"] > 0
+    pdf = http.get(f"/dossiers/{did}/brouillon.pdf")
+    assert pdf.status_code == 200 and pdf.content.startswith(b"%PDF")
+
+

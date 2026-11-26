@@ -1,0 +1,22 @@
+25/11/2026 09:00 - Awa: Coucou la boutique ! J'espère que la semaine démarre bien chez vous.
+25/11/2026 09:03 - Vendeuse: Bonjour Awa ! Oui merci beaucoup, très bien et chez vous ?
+25/11/2026 09:05 - Awa: Ça va très bien. Je voulais savoir si vous avez encore des robes wax Ayoka en stock cette semaine ?
+25/11/2026 09:07 - Vendeuse: Oui Awa, nous avons les tailles S, M, L et XL disponibles pour la robe wax Ayoka.
+25/11/2026 09:10 - Awa: Super ! Et côté cosmétiques, le sérum vitamine C 30 ml et le beurre de karité sont disponibles aussi ?
+25/11/2026 09:12 - Vendeuse: Oui les deux sont bien disponibles aujourd'hui.
+25/11/2026 09:15 - Awa: Parfait, alors je vais passer une commande pour moi et ma sœur.
+25/11/2026 09:16 - Awa: Je veux 2 robes Ayoka, une en M et une en XL, et 2 sérums vitamine C svp.
+25/11/2026 09:18 - Vendeuse: C'est noté Awa : 2 robes Ayoka (M et XL) et 2 sérums vitamine C. Vous voulez ajouter un sac à main Lagune ?
+25/11/2026 09:22 - Awa: Hmmm oui pourquoi pas, ajoute 1 sac à main Lagune aussi !
+25/11/2026 09:24 - Awa: Ah attends, pour les sérums ma cousine en veut un aussi : non plutôt 3 sérums vitamine C au total svp.
+25/11/2026 09:27 - Vendeuse: Bien pris en compte ! Donc on récapitule : 2 robes Ayoka (1 en M, 1 en XL), 3 sérums vitamine C et 1 sac à main Lagune.
+25/11/2026 09:29 - Awa: Oui c'est exactement ça, je confirme la commande.
+25/11/2026 09:31 - Vendeuse: On livre à votre adresse habituelle à Calavi ?
+25/11/2026 09:33 - Awa: Oui à Abomey-Calavi, juste après le carrefour IITA, maison portail gris.
+25/11/2026 09:35 - Vendeuse: Parfait. Pour le règlement, paiement à la livraison ou Mobile Money ?
+25/11/2026 09:37 - Awa: Paiement à la livraison, je vais régler par Mobile Money Moov une fois que j'aurai vérifié les tailles.
+25/11/2026 09:40 - Vendeuse: Entendu Awa, le colis part avec le livreur en début d'après-midi.
+25/11/2026 14:15 - Livreur: Bonjour Awa, je quitte Cotonou pour Abomey-Calavi, j'arrive dans environ 40 minutes.
+25/11/2026 14:20 - Awa: D'accord merci, je suis à la maison.
+25/11/2026 15:05 - Livreur: Livré chez Awa à Abomey-Calavi. Elle a essayé les robes et elle a refusé la robe XL (trop grande). 1 robe M + 3 sérums vitamine C + 1 sac à main Lagune livrés, payé par Mobile Money.
+25/11/2026 15:10 - Awa: Merci beaucoup, la robe M et le sac sont magnifiques ! Bonne fin de journée.

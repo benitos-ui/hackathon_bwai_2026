@@ -1,0 +1,30 @@
+24/11/2026 08:15 - Sika Hounkpatin: Bonjour Boutique X ! Je voudrais passer une première commande aujourd'hui pour ma fille.
+24/11/2026 08:17 - Vendeuse: Bonjour Sika ! Dites-moi tout, on vous écoute.
+24/11/2026 08:20 - Sika Hounkpatin: Je voudrais 1 robe wax Ayoka en S et 2 beurres de karité 200 ml svp.
+24/11/2026 08:22 - Vendeuse: C'est noté : 1 robe wax Ayoka taille S et 2 beurres de karité 200 ml.
+24/11/2026 08:25 - Sika Hounkpatin: Est-ce que vous pouvez aussi joindre 1 sérum vitamine C 30 ml ? On m'a dit que ça coûte 8000 fcfa.
+24/11/2026 08:27 - Vendeuse: Oui tout à fait, j'ajoute 1 sérum vitamine C 30 ml à votre commande.
+24/11/2026 08:29 - Sika Hounkpatin: Super, livraison à Porto-Novo comme d'habitude, paiement à la livraison.
+24/11/2026 08:31 - Vendeuse: C'est enregistré pour Porto-Novo aujourd'hui.
+24/11/2026 08:35 - Sika Hounkpatin: Merci, dites au livreur d'appeler quand il arrive au carrefour Beau-Rivage.
+24/11/2026 08:37 - Vendeuse: Message transmis au livreur !
+24/11/2026 13:10 - Livreur: Bonjour madame Sika, je suis au carrefour Beau-Rivage à Porto-Novo.
+24/11/2026 13:14 - Sika Hounkpatin: J'envoie mon fils récupérer le colis tout de suite.
+24/11/2026 13:30 - Livreur: Livré chez Sika à Porto-Novo. 1 robe S + 2 beurres de karité + 1 sérum vitamine C livrés, payé en espèces.
+24/11/2026 13:45 - Sika Hounkpatin: Colis bien reçu, merci beaucoup pour la rapidité !
+25/11/2026 10:05 - Sika Hounkpatin: Bonjour encore ! Ma collègue a adoré la robe et veut que je passe une deuxième commande pour elle.
+25/11/2026 10:07 - Vendeuse: Bonjour Sika ! Avec plaisir, que souhaite votre collègue ?
+25/11/2026 10:10 - Sika Hounkpatin: Elle veut 2 ensembles pagne Sènami en L et 1 sac à main Lagune svp.
+25/11/2026 10:12 - Sika Hounkpatin: image absente
+25/11/2026 10:13 - Sika Hounkpatin: Elle pensait que le sac à main Lagune était à 18000 fcfa, c'est bien ça ?
+25/11/2026 10:15 - Vendeuse: Je vais vérifier sur le catalogue officiel pour la facture, pas de souci !
+25/11/2026 10:18 - Sika Hounkpatin: Et au fait, concernant ma commande d'hier, le bouchon d'un des beurres de karité était légèrement fissuré, je peux avoir un retour ou un échange ?
+25/11/2026 10:21 - Vendeuse: Désolée pour ce désagrément Sika ! Pour une facture déjà validée, le gérant traitera le retour par un avoir séparé.
+25/11/2026 10:24 - Sika Hounkpatin: D'accord merci beaucoup, c'est très professionnel.
+25/11/2026 10:26 - Sika Hounkpatin: Pour cette nouvelle commande, vous pouvez livrer à Porto-Novo cet après-midi ?
+25/11/2026 10:28 - Vendeuse: Oui sans problème, livraison prévue à Porto-Novo vers 16h.
+25/11/2026 10:30 - Sika Hounkpatin: Parfait, elle va payer par Mobile Money MTN à la livraison.
+25/11/2026 10:32 - Vendeuse: C'est noté, merci Sika !
+25/11/2026 15:50 - Livreur: Arrivé à Porto-Novo pour la deuxième commande de Sika.
+25/11/2026 16:10 - Livreur: Livré chez Sika à Porto-Novo. 2 ensembles pagne Sènami L + 1 sac à main Lagune livrés, payé par Mobile Money.
+25/11/2026 16:15 - Sika Hounkpatin: Merci beaucoup, tout est nickel cette fois !

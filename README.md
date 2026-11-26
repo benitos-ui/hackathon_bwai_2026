@@ -34,6 +34,18 @@ chmod +x run.sh
 - API FastAPI & Swagger : `http://127.0.0.1:8000/docs`
 - Interface Streamlit : `http://127.0.0.1:8501`
 
+## Démonstration du simulateur WhatsApp
+
+Dans l'interface, ouvre la page **Chat** puis choisis **Simuler WhatsApp**. Ajoute les messages
+dans l'ordre chronologique en sélectionnant l'intervenant (client, vendeuse ou livreur), saisis le
+texte et sa date/heure, puis clique sur **Créer le dossier depuis la conversation simulée**.
+Le fil est converti au format texte WhatsApp accepté par le même endpoint d'import que les exports
+`.txt` ; le pipeline backend reste la source de vérité pour l'analyse et la facturation.
+
+Ce simulateur est local et pédagogique : il n'envoie aucun message à WhatsApp ou à Meta. Les
+conversations, clients et paiements de démonstration sont fictifs. L'import d'un export WhatsApp
+existant par collage ou fichier `.txt` reste disponible dans la même page.
+
 ### Lancement séparé
 
 ```bash
